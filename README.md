@@ -7,6 +7,7 @@
 ### Mobile-first HR & enterprise operations platform
 ### منصة عربية لإدارة الموارد البشرية وعمليات الشركات
 
+[![Website](https://img.shields.io/badge/website-GitHub%20Pages-53e0c1)](https://bojoo62.github.io/mawared-erp-showcase/)
 [![Status](https://img.shields.io/badge/status-active%20development-blue)](#project-status)
 [![Platform](https://img.shields.io/badge/platform-Android-green)](#technology-overview)
 [![Backend](https://img.shields.io/badge/backend-TypeScript%20%7C%20Express-black)](#technology-overview)
@@ -21,6 +22,14 @@
 **موارد ERP** هو مشروع تجاري لنظام موارد بشرية وإدارة عمليات متعدد الشركات، مصمم بواجهة عربية ودعم اتجاه الكتابة من اليمين إلى اليسار. يهدف النظام إلى جمع إدارة الموظفين والحضور والإجازات والصلاحيات والرواتب والمشتريات والتقارير في منصة واحدة قابلة للتوسع.
 
 هذا المستودع مخصص **لعرض المنتج فقط**. الكود المصدري الكامل، إعدادات النشر، مخطط قاعدة البيانات التفصيلي، الأسرار، وبيانات التشغيل محفوظة في مستودع خاص وغير منشورة هنا.
+
+### روابط سريعة
+
+- [موقع عرض المنتج](https://bojoo62.github.io/mawared-erp-showcase/)
+- [المعمارية العامة](docs/ARCHITECTURE.md)
+- [خارطة التطوير](docs/ROADMAP.md)
+- [حزمة النشر للمجتمع](docs/SHARE_KIT.md)
+- [إرسال ملاحظة أو اقتراح](https://github.com/Bojoo62/mawared-erp-showcase/issues/new/choose)
 
 ### النطاق الوظيفي
 
@@ -95,6 +104,13 @@ Security and product details are intentionally presented at a high level. See [A
 | Attendance | Active development |
 | Payroll and procurement | Incremental implementation |
 | Production rollout | Controlled pilot preparation |
+
+## Community and feedback
+
+- Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue.
+- Use the structured [product feedback form](https://github.com/Bojoo62/mawared-erp-showcase/issues/new/choose).
+- Use [SECURITY.md](SECURITY.md) for responsible security reporting.
+- Ready-to-edit public announcements are available in the [community share kit](docs/SHARE_KIT.md).
 
 ## Repository policy
 
