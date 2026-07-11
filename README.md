@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/mawared-banner.svg" alt="Mawared ERP showcase banner" width="100%" />
+
 # Mawared ERP | موارد
 
 ### Mobile-first HR & enterprise operations platform
