@@ -1,0 +1,62 @@
+name: Product feedback
+ description: Suggest a capability, workflow, or showcase improvement for Mawared ERP.
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing Mawared ERP. Feedback is welcome in Arabic or English.
+        Do not include credentials, employee data, customer data, private deployment URLs, or security vulnerability details.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Product area
+      options:
+        - Employees and departments
+        - Attendance and breaks
+        - Leave workflows
+        - Roles and permissions
+        - Payroll and finance
+        - Purchasing and suppliers
+        - Reporting and dashboards
+        - Arabic RTL experience
+        - Showcase website or documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should be solved?
+      description: Describe the business or user problem rather than only naming a feature.
+      placeholder: Explain who faces the problem, what happens today, and why it matters.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected outcome
+      placeholder: What should a successful solution allow the user or company to achieve?
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Main user role
+      options:
+        - Employee
+        - Department manager
+        - HR manager
+        - Administrator
+        - Accountant or finance team
+        - Purchasing team
+        - Company owner or executive
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add non-confidential examples, screenshots, or references if useful.
