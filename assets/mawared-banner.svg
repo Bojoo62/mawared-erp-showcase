@@ -1,40 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
   <title id="title">Mawared ERP showcase banner</title>
   <desc id="desc">Mawared ERP, an Arabic-first HR and enterprise operations platform</desc>
+
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#081B33"/>
-      <stop offset="0.55" stop-color="#0B3B52"/>
-      <stop offset="1" stop-color="#0E7C7B"/>
+      <stop offset="0" stop-color="#031426"/>
+      <stop offset="0.48" stop-color="#06283d"/>
+      <stop offset="1" stop-color="#0a8792"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2e67"/>
+      <stop offset="1" stop-color="#063448"/>
     </linearGradient>
     <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#53E0C1"/>
-      <stop offset="1" stop-color="#D7FFF7"/>
+      <stop offset="0" stop-color="#46f1d0"/>
+      <stop offset="1" stop-color="#b9fff4"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#00101D" flood-opacity="0.35"/>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#20d7df" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#20d7df" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#00101d" flood-opacity="0.52"/>
+    </filter>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="22"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <circle cx="1080" cy="40" r="170" fill="#FFFFFF" opacity="0.04"/>
-  <circle cx="1120" cy="330" r="230" fill="#53E0C1" opacity="0.05"/>
-  <path d="M0 286 C240 222 390 350 640 286 C870 228 990 250 1200 188 L1200 360 L0 360 Z" fill="#FFFFFF" opacity="0.035"/>
+  <rect width="1600" height="480" rx="34" fill="url(#bg)"/>
 
-  <g transform="translate(86 78)" filter="url(#shadow)">
-    <rect width="204" height="204" rx="52" fill="#FFFFFF" opacity="0.10"/>
-    <path d="M43 147V57h32l27 42 27-42h32v90h-31V101l-28 41-28-41v46z" fill="url(#mark)"/>
+  <circle cx="1460" cy="-30" r="255" fill="none" stroke="#50ebef" stroke-width="4" opacity="0.22"/>
+  <circle cx="1520" cy="525" r="335" fill="#29d6df" opacity="0.12"/>
+  <circle cx="1520" cy="525" r="260" fill="url(#glow)"/>
+  <circle cx="-25" cy="505" r="215" fill="#087b8c" opacity="0.22"/>
+  <circle cx="-25" cy="505" r="175" fill="none" stroke="#20b9ca" stroke-width="3" opacity="0.22"/>
+
+  <g opacity="0.28" fill="#26b8d0">
+    <circle cx="55" cy="55" r="4"/><circle cx="84" cy="55" r="4"/><circle cx="113" cy="55" r="4"/><circle cx="142" cy="55" r="4"/>
+    <circle cx="55" cy="84" r="4"/><circle cx="84" cy="84" r="4"/><circle cx="113" cy="84" r="4"/><circle cx="142" cy="84" r="4"/>
+    <circle cx="55" cy="113" r="4"/><circle cx="84" cy="113" r="4"/><circle cx="113" cy="113" r="4"/><circle cx="142" cy="113" r="4"/>
   </g>
 
-  <g fill="#FFFFFF">
-    <text x="340" y="132" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="60" font-weight="750" letter-spacing="1">Mawared ERP</text>
-    <text x="340" y="192" font-family="Tahoma,Arial,sans-serif" font-size="40" font-weight="700" direction="rtl" unicode-bidi="bidi-override">موارد</text>
-    <text x="340" y="246" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" opacity="0.82">Arabic-first HR &amp; enterprise operations platform</text>
-    <text x="340" y="288" font-family="Tahoma,Arial,sans-serif" font-size="22" opacity="0.74" direction="rtl" unicode-bidi="bidi-override">منصة عربية لإدارة الموارد البشرية وعمليات الشركات</text>
+  <ellipse cx="300" cy="400" rx="230" ry="80" fill="#20d7df" opacity="0.08" filter="url(#softGlow)"/>
+
+  <g transform="translate(105 100)" filter="url(#shadow)">
+    <rect width="280" height="280" rx="72" fill="url(#tile)" stroke="#27bcd0" stroke-width="3"/>
+    <rect x="10" y="10" width="260" height="260" rx="64" fill="none" stroke="#9fffee" stroke-opacity="0.09"/>
+    <path d="M56 216V64h46l38 60 38-60h46v152h-44v-82l-40 61-40-61v82z" fill="url(#mark)"/>
+    <path d="M56 216h44v-44l40 61 40-61v44h44v24H56z" fill="#001a2b" opacity="0.44"/>
   </g>
 
-  <g transform="translate(982 255)">
-    <rect width="132" height="42" rx="21" fill="#FFFFFF" opacity="0.12"/>
-    <text x="66" y="27" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="650" fill="#D7FFF7">SHOWCASE</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="470" y="150" fill="#ffffff" font-size="78" font-weight="800" letter-spacing="0.4">Mawared ERP</text>
+    <text x="470" y="224" fill="#5ef0da" font-family="Tahoma,Arial,sans-serif" font-size="50" font-weight="700">موارد</text>
+    <text x="470" y="298" fill="#ffffff" font-size="31" font-weight="500" opacity="0.95">Arabic-first HR &amp; enterprise operations platform</text>
+    <text x="470" y="356" fill="#62e8db" font-family="Tahoma,Arial,sans-serif" font-size="29" font-weight="500">منصة عربية لإدارة الموارد البشرية وعمليات الشركات</text>
+  </g>
+
+  <g transform="translate(1328 347)">
+    <rect width="188" height="58" rx="29" fill="#062d3d" fill-opacity="0.54" stroke="#25d8d7" stroke-width="2"/>
+    <text x="94" y="37" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750" letter-spacing="2" fill="#ffffff">SHOWCASE</text>
   </g>
 </svg>
